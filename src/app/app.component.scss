@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     justify-content: center;
@@ -5,14 +7,14 @@ body {
     background-image: linear-gradient(90deg, #017AB1, #004e6a);
 }
 .corpo{
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 2px solid black;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 350px;
-    height: 530px;
     background-color: rgb(230, 230, 230);
 }
 .slidebutton {
