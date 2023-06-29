@@ -1,15 +1,24 @@
 body {
-    background-color: rgb(177, 177, 255);
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, #017AB1, #004e6a);
 }
 .corpo{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 350px;
+    height: 530px;
+    background-color: rgb(230, 230, 230);
 }
 .slidebutton {
     display: flex;
     flex-direction: column;
+}
+mat-progress-bar{
+    width: 300px;
 }
