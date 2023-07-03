@@ -1,4 +1,14 @@
-.centralizar{
+.centralizar {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+    
+.example-button-row {
+    display: flex;
+    justify-content: left;
+}
+ 
